@@ -1,0 +1,107 @@
+*{
+    text-align: center;
+}
+.body_background{
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(to bottom,
+    rgb(253, 152, 244),
+    rgb(229, 105, 255)
+    );
+    position: relative;
+}
+.container{
+    width: 270px;
+    height: 270px;
+    background-color: rgb(171, 88, 206);
+    position: absolute;
+    top: 200px;
+    left: 610px;
+    border-radius: 30px;
+    padding: 40px;
+    display: grid;
+}
+.container img{
+    width: 70px;
+    height: 70px;
+    border: 5px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.p1{
+    font-family: sans-serif;
+    color: white;
+    justify-self: left;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+h2{
+    font-family: sans-serif;
+    color: white;
+    justify-self: left;
+    margin: 0;
+}
+.p2{
+    font-family: sans-serif;
+    color: white;
+    justify-self: left;
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 12px;
+
+}
+.p3{
+    font-family: sans-serif;
+    color: white;
+    justify-self: left;
+    font-size: 12px;
+    margin: 0;
+}
+.p4{
+    font-family: sans-serif;
+    color: white;
+    justify-self: left;
+    font-size: 12px;
+    margin-top: 0;
+}
+.icons{
+    display: flex;
+}
+.icon1{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 7px;
+}
+.icon1 img{
+    width: 25px;
+    height: 25px;
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+}
+.icon2{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    margin-right: 7px;
+    border-radius: 50%;
+}
+.icon2 img{
+    width: 25px;
+    height: 25px;
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+}
+.icon3{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+.icon3 img{
+    width: 25px;
+    height: 25px;
+    margin-top: 2.5px;
+    margin-left: 2.5px;
+}
