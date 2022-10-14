@@ -28,22 +28,22 @@
 // practice 2 =>
 
 
-let steps = 0;
-let obj = {
-    increase(){
-        steps++;
-    },
-    decrease(){
-        steps--;
-    },
-    reset(){
-        steps = 0;
-    },
-    read(){
-        console.log(steps);
-    }
-}
-obj.increase(),obj.increase(),obj.decrease(),obj.read()
+// let steps = 0;
+// let obj = {
+//     increase(){
+//         steps++;
+//     },
+//     decrease(){
+//         steps--;
+//     },
+//     reset(){
+//         steps = 0;
+//     },
+//     read(){
+//         console.log(steps);
+//     }
+// }
+// obj.increase(),obj.increase(),obj.decrease(),obj.read()
 
 
 
@@ -107,7 +107,7 @@ obj.increase(),obj.increase(),obj.decrease(),obj.read()
 
 
 // let a = prompt('Type your text');
-// let text = document.getElementsByClassName("text");
+let text = document.getElementsByClassName("text");
 
 
 
